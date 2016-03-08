@@ -1,0 +1,8 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+    <h2>{{ snake.name }}</h2>
+    <h3>{{ snake.location}}</h3>
+    <img src={{snake.image_path}} alt="snake image" style="width: 50%; height: 50%">
+
+{% endblock %}

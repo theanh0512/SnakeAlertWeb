@@ -1,0 +1,58 @@
+﻿
+{% extends "app/layout.html" %}
+
+{% block content %}
+    <p><h2>{{ snake.name_separated }}</h2>
+    (It was found at {{ snake.location}})
+    </p>
+    
+    <h4>Specification:</h4>
+    <p><pre>{{ snake.specification }}</pre></p>
+    <p id="count" title="{{ snake.count_snake }}"></p>
+    <h4>First Aid:</h4>
+    <p><pre>{{ snake.first_aid }}</pre></p>
+    <img id="snakePicture" src={{snake.image_path}} alt="snake image" style="width:100%;height:100%;">
+    <script>
+        var pic = new Image();
+        var yourImg = document.getElementById('snakePicture');
+        pic.src = yourImg.src;
+        if(pic.naturalHeight<=pic.naturalWidth){
+            yourImg.style.height = '228px';
+            yourImg.style.width = '304px';
+        }
+        else{
+            yourImg.style.height = '304px';
+            yourImg.style.width = '228px';
+        }
+    </script>
+    <ul class="pager">
+        <li><a href="/snakes/{{snake.id}}" id="prevSnake">Previous</a></li>
+        <li><a href="/snakes/{{snake.id}}"  id="nextSnake">Next</a></li>
+    </ul>
+    
+    <script>
+        var countPara = document.getElementById('count');
+        var count = parseInt(countPara.title, 10);
+        var prevSnake = document.getElementById('prevSnake');
+        var link = prevSnake.href;
+        var vars = link.split("/");
+        var id = parseInt(vars[vars.length - 1], 10);
+        if (id == 1) {
+            prevSnake.href = count;
+        }
+        else {
+            prevSnake.href = id - 1;
+        }
+        var nextSnake = document.getElementById('nextSnake');
+        
+        var linkNext = nextSnake.href;
+        var varsNext = linkNext.split("/");
+        var idNext = parseInt(varsNext[varsNext.length - 1], 10);
+        if (idNext == count) {
+            nextSnake.href = 1;
+        }
+        else {
+            nextSnake.href = idNext + 1;
+        }
+    </script>
+{% endblock %}

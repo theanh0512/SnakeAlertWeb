@@ -1,0 +1,30 @@
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\bin\Microsoft.PythonTools.WebRole.dll
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\attach_server.py
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\visualstudio_py_debugger.py
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\visualstudio_py_repl.py
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\visualstudio_py_util.py
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\__init__.py
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\__main__.py
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\bin\AzureSetup.cfg
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\bin\Microsoft.PythonTools.AzureSetup.exe
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\bin\Microsoft.PythonTools.AzureSetup.exe.config
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\bin\wfastcgi.py
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\deployment-updated-orig-prefix.txt
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\ptvs_virtualenv_proxy.py
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\web.config
+D:\google drive\Year 4 sem 2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\web.debug.config
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\bin\Microsoft.PythonTools.WebRole.dll
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\attach_server.py
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\visualstudio_py_debugger.py
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\visualstudio_py_repl.py
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\visualstudio_py_util.py
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\__init__.py
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\__main__.py
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\bin\AzureSetup.cfg
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\bin\Microsoft.PythonTools.AzureSetup.exe
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\bin\Microsoft.PythonTools.AzureSetup.exe.config
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\bin\wfastcgi.py
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\deployment-updated-orig-prefix.txt
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\ptvs_virtualenv_proxy.py
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\web.config
+D:\google_drive\Year_4_sem_2\FYP\VS FYP\SnakeAlert\SnakeAlert\obj\Debug\web.debug.config

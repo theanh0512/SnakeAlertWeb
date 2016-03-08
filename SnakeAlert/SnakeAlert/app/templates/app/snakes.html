@@ -1,0 +1,25 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+    <h2>List of snakes</h2>
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Image</th>
+      </tr>
+    </thead>
+    <tbody>
+                {% for snake in snakes %}
+        
+        <tr>
+            <td><a href="/snakes/{{snake.id}}">{{snake.name_separated}}</a></td>
+            <td>{{ snake.location }}</td>
+            <td><img src="{{snake.image_path}}" class="img-thumbnail" alt="Snake Image" style="width:150px;height:150px"></td>
+        </tr>
+                {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
+
