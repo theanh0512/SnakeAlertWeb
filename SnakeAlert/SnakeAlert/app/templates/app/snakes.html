@@ -1,6 +1,7 @@
 ﻿{% extends "app/layout.html" %}
 
 {% block content %}
+<br/><br/><br/>
     <h2>List of snakes</h2>
 <table class="table table-hover">
     <thead>
@@ -14,7 +15,7 @@
                 {% for snake in snakes %}
         
         <tr>
-            <td><a href="/snakes/{{snake.id}}">{{snake.name_separated}}</a></td>
+            <td><a style="font-size:20px;font-weight:600" href="/snakes/{{snake.id}}">{{snake.name_separated}}</a></td>
             <td>{{ snake.location }}</td>
             <td><img src="{{snake.image_path}}" class="img-thumbnail" alt="Snake Image" style="width:150px;height:150px"></td>
         </tr>
