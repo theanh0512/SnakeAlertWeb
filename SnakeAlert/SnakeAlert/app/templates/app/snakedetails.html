@@ -1,15 +1,21 @@
 ﻿
-{% extends "app/layout.html" %}
-
+{% extends "app/layout_2.html" %}
+{% block title %}
+<h2>Snake's Detail</h2>
+<a href="/">Home</a> / <a href="{% url 'snakes' %}">Snakes</a> / Snake's Detail
+{% endblock %}
 {% block content %}
-    <p><h2>{{ snake.name_separated }}</h2>
-    (It was found at {{ snake.location}})
+    <p><h2 style="font-weight:800">{{ snake.name_separated }}</h2>
+    Found at {{ snake.location}}
     </p>
+    <div class="bg-image">
+        <img src={{snake.kind_image_path}} class="img-responsive" style="width:100%;height:280px;" />
+    </div>
     
-    <h4>Specification:</h4>
+    <h4>Specification</h4>
     <p><pre>{{ snake.specification }}</pre></p>
     <p id="count" title="{{ snake.count_snake }}"></p>
-    <h4>First Aid:</h4>
+    <h4>First Aid</h4>
     <p><pre>{{ snake.first_aid }}</pre></p>
     <img id="snakePicture" src={{snake.image_path}} alt="snake image" style="width:100%;height:100%;">
     <script>

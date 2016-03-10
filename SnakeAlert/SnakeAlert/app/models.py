@@ -12,7 +12,7 @@ class Kind(models.Model):
         return self.name
 
     def kind_thumbnail(self):
-        return '<img src="%s" width="100" height="100"/>' % self.image_path
+        return '<img src="%s" width="150" height="120"/>' % self.image_path
     kind_thumbnail.allow_tags = True
 
     def name_separated(self):
@@ -36,13 +36,20 @@ class Snake(models.Model):
                               'longitude': self.longitude}}
 
     def snake_thumbnail(self):
-        return '<img src="%s" width="100" height="100"/>' % self.image_path
+        return '<img src="%s" width="150" height="120"/>' % self.image_path
     snake_thumbnail.allow_tags = True
 
     @property
     def name_separated(self):
         name_sep = re.sub(r"(?<=\w)([A-Z])", r" \1", self.name)
         return name_sep
+
+    @property
+    def kind_image_path(self):
+        object = Kind.objects.filter(name = self.name)
+        for e in object:
+            e =e
+        return e.image_path
 
     @property
     def specification(self):

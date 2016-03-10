@@ -60,10 +60,15 @@
     <Content Include="app\static\app\content\styles.css">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="app\static\app\img\differentiate_snakes.jpg" />
     <Content Include="app\static\app\img\iconAlert.png" />
     <Content Include="app\static\app\img\iconFirstAid.png" />
     <Content Include="app\static\app\img\iconMap.png" />
+    <Content Include="app\static\app\img\poisonous_snake_warning_sign.JPG" />
     <Content Include="app\static\app\img\snakealertboard.jpg" />
+    <Content Include="app\static\app\img\snake_bite.jpg" />
+    <Content Include="app\static\app\img\watch_out_your_dog.jpg" />
+    <Content Include="app\templates\app\layout_2.html" />
     <Content Include="app\templates\app\snakedetails.html" />
     <Content Include="app\templates\app\snakes.html" />
     <Content Include="app\templates\app\snakesmap.html" />

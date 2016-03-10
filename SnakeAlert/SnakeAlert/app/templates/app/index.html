@@ -1,51 +1,120 @@
 {% extends "app/layout.html" %}
 
 {% block content %}
-<br /><br /><br />
-<div class="bg-image">
-    <img src="../../static/app/img/snakealertboard.jpg"class="img-responsive" style="width:100%;height:300px;" />
-</div>
+<div class="index-container">
+    <br /><br /><br />
+    <!--<div class="bg-image">
+        <img src="../../static/app/img/snakealertboard.jpg"class="img-responsive" style="width:100%;height:300px;" />
+    </div>-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
 
-<br /><br /><br />
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
 
-<div class="row">
-    <div class="col-md-4">
-        <div class="service-box color-2 extra-btn">
-            <div class="icon-service-box">
-                <img src="../../static/app/img/iconAlert.png" alt="" style="width:60px;height:60px;"/>
+      <div class="item active">
+        <img src="../../static/app/img/watch_out_your_dog.jpg" alt="Dog" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Pet</h3>
+          <p>You would need to put your eyes on your pets to make sure they are safe from snakes</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="../../static/app/img/snakealertboard.jpg" alt="sign" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Sign</h3>
+          <p>Check the snake warning signs carefully</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="../../static/app/img/differentiate_snakes.jpg" alt="differentiation" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Not every snake poisonous</h3>
+          <p>You should know how to differentiate snakes.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="../../static/app/img/poisonous_snake_warning_sign.jpg" alt="poisonousSnake" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Watch out!</h3>
+          <p>Poisonous Snakes are dangerous</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+    <br /><br /><br />
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="service-box color-2 extra-btn">
+                <div class="icon-service-box">
+                    <img src="../../static/app/img/iconAlert.png" alt="" style="width:60px;height:60px;"/>
+                    </div>
+                <h2 class="title">Alert</h2>
+                <p>
+                    Your smartphone will alert whenever you approach the area snake cases happended before.   
+                </p>
+                <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="service-box color-1 extra-btn">
+                <div class="icon-service-box">
+                    <img src="../../static/app/img/iconMap.png" alt="" style="width:60px;height:60px;"/>
                 </div>
-            <h2 class="title">Alert</h2>
-            <p>
-                Your smartphone will alert whenever you approach the area snake cases happended before.   
-            </p>
-            <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="service-box color-1 extra-btn">
-            <div class="icon-service-box">
-                <img src="../../static/app/img/iconMap.png" alt="" style="width:60px;height:60px;"/>
+                <h2 class="title">Prevention</h2>
+                <p>Hotspot maps of snake cases available on your smartphone so you can protect yourself from snakes.</p>
+                <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
             </div>
-            <h2 class="title">Prevention</h2>
-            <p>Hotspot maps of snake cases available on your smartphone so you can protect yourself from snakes.</p>
-            <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
         </div>
-    </div>
-    <div class="col-md-4">
-        <div class="service-box color-2 extra-btn">
-            <div class="icon-service-box">
-                <img src="../../static/app/img/iconFirstAid.png" alt="" style="width:60px;height:60px;"/>
+        <div class="col-md-4">
+            <div class="service-box color-2 extra-btn">
+                <div class="icon-service-box">
+                    <img src="../../static/app/img/iconFirstAid.png" alt="" style="width:60px;height:60px;"/>
+                </div>
+                <h2 class="title">Self-treatment</h2>
+                <p>First Aid information for specific kind of snakes is available on your smartphone.</p>
+                <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
             </div>
-            <h2 class="title">Self-treatment</h2>
-            <p>First Aid information for specific kind of snakes is available on your smartphone.</p>
-            <br/>
-            <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
         </div>
     </div>
-</div>
+    <hr/>
+    <div class="intro">
+        <h2>Current Situation</h2>
+        <p><b>Snakebite</b> is recognized as a crucial public health issue by World Health Organization from 2009. 
+        Envenoming resulting from snakebite is a fatal injury causing more than 100,000 deaths and 400,000 amputations annually out of 4.5-5.5 million incidents globally. 
+        Countries like Africa, Australia, Bangladesh, India and Sri Lanka are especially afflicted by the snakebite problem due to their geographical positions and climatic conditions. 
+        In rural area like Bangladesh, snakebite is a major cause of mortality and morbidity, it significantly impacts economies through treatment related expenditure and productivity.<br/>
+        In Australia where snakebites are also common, timely rescue of victims and adequate training of medical officers in identifying snake venom and administering anti-venom allow
+         the death toll to be effectively reduced. By comparison, in Bangladesh, resource scarcity and lack of medical support causes treatment to arrive at a later stage, resulting in 
+        venom to penetrate body organs and create permanent damage, sometimes causing deaths.<br/>
 
-<div class="row">
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        With the help of adequate cell phone coverage, we propose to implement a comprehensive mobile-based system to facilitate emergent first aid service and provide all-rounded communication
+         service to support on-demand treatment and care in rural areas. So life-saving service are made available with technology mediated support and explored further on as a general
+         public health communication solution.</p>
+        
+    </div>
 </div>
 
 {% endblock %}

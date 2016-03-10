@@ -3,9 +3,86 @@
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 body {
   padding: 0 !important;
+  background-color: #f2f2f2;
 }
 h2 {
   font-weight: 300 !important;
+}
+html, body, #container { height: 100%; }
+body > #container { height: auto; min-height: 100%; }
+
+#footer {
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 3em;
+ margin-top: -3em;
+}
+
+.intro {
+    margin-top:40px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:20px;
+}
+
+pre {
+    font-size:16px;
+    font-weight:500;
+    font-stretch:normal;
+    font-family:'Times New Roman';
+    word-break:break-word;
+}
+footer.footer {
+    background-color:black;
+    padding:10px;  
+}
+footer.footer p {
+    color:white;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%;
+      height:400px;
+      margin: auto;
+  }
+.carousel-caption {
+    font-size:larger;
+}
+div.page-title {
+    background-color:white;
+    width:800px;
+    max-width:1000px;
+    height:100px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    margin-top:50px;
+    padding-left:10px;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-right:10px;
+    background-image:url(../img/snake_bite.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+div.container.body-content {
+    background-color:white;
+    width:800px;
+    max-width:1000px;
+}
+div.container.body-content h4{
+    font-weight:700;    
+}
+div.container.body-content h2{
+    font-weight:800;    
+}
+div.index-container{
+    width:1000px;
+    background-color:white;
 }
 p {
   margin-bottom: 1.5em;
