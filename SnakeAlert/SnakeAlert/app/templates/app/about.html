@@ -1,9 +1,62 @@
-{% extends "app/layout.html" %}
+{% extends "app/layout_2.html" %}
+{% block title %}
+    <h2>How it works</h2>
+    <a href="/">Home</a> / How it works
+{% endblock %}
 
 {% block content %}
 <br/><br/><br/>
-<h2>SnakeAlert Application</h2>
-
+<div class="bg-image">
+        <img src="../../static/app/img/features.png" al class="img-responsive" style="width:80%;height:280px; margin-left:80px"/>
+    </div>
+<div class="row">
+    <img src="../../static/app/img/snake_report.png" al class="img-responsive" style="width:50%;height:100px; margin-left:10px"/>
+    <br/>
+    <div class="col-md-4" >
+        <img src="../../static/app/img/capture_selected.png" al class="img-responsive"/>
+        <h4>1. Select camera icon</h4>
+    </div>
+    <div class="col-md-4">
+        <img src="../../static/app/img/capture_screen.png" al class="img-responsive"/>
+        <h4>2. Capture a snake picture</h4><h4>and click upload</h4>
+    </div>
+    <div class="col-md-4">
+        <img src="../../static/app/img/upload_screen.png" al class="img-responsive"/>
+        <h4>3. Select a kind of snake</h4><h4>you think it is</h4>
+    </div>
+    <div class="col-md-4" style="margin-left:80px">
+        <img src="../../static/app/img/snake_list_screen.png" al class="img-responsive"/>
+        <h4>4. List of snake incidents</h4><h4>will be displayed</h4>
+    </div>
+    <div class="col-md-4" style="margin-left:80px">
+        <img src="../../static/app/img/snakedetail_screen.png" al class="img-responsive"/>
+        <h4>5. Choose to see each snake incident</h4>
+    </div>
+</div>
+<div class="row">
+    <img src="../../static/app/img/map_incidents.png" al class="img-responsive" style="width:50%;height:100px; margin-left:10px"/>
+    <br/>
+    <div class="col-md-4" style="margin-left:80px" >
+        <img src="../../static/app/img/map_selected.png" al class="img-responsive"/>
+        <h4>1. Select map icon</h4>
+    </div>
+    <div class="col-md-4" style="margin-left:80px">
+        <img src="../../static/app/img/map_screen.png" al class="img-responsive"/>
+        <h4>2. Click the markers to see</h4><h4>snakes name</h4>
+    </div>
+</div>
+<div class="row">
+    <img src="../../static/app/img/first_aid.png" al class="img-responsive" style="width:50%;height:100px; margin-left:10px"/>
+    <br/>
+    <div class="col-md-4" style="margin-left:80px" >
+        <img src="../../static/app/img/firstaid_selected.png" al class="img-responsive"/>
+        <h4>1. Select first-aid icon</h4>
+    </div>
+    <div class="col-md-4" style="margin-left:80px">
+        <img src="../../static/app/img/firstaid_screen.png" al class="img-responsive"/>
+        <h4>2. Go through all steps</h4><h4>to ensure safety</h4>
+    </div>
+</div>
 <p></p>
 
 {% endblock %}

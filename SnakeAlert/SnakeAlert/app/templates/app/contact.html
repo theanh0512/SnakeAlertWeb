@@ -1,20 +1,21 @@
-{% extends "app/layout.html" %}
+{% extends "app/layout_2.html" %}
+{% block title %}
+    <h2>Contact us</h2>
+    <a href="/">Home</a> / Contact us
+{% endblock %}
 
 {% block content %}
-
-<h2>{{ title }}.</h2>
-<h3>{{ message }}</h3>
-
+<h3>Our Address</h3>
 <address>
     152 Nanyang Crescent<br />
     NTU, S637658<br />
-    <abbr title="Phone">P:</abbr>
+    <abbr title="Phone">Pham:</abbr>
     +6584803144
 </address>
 
 <address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    <strong>Support:</strong>   <a href="mailto:anh005@e.ntu.edu.sg">anh005@e.ntu.edu.sg</a><br />
+    <strong>Marketing:</strong> <a href="mailto:theanh0512@gmail.com">theanh0512@gmail.com</a>
 </address>
 
 {% endblock %}
